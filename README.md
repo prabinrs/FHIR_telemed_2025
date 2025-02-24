@@ -1,2 +1,2 @@
-# FHIR_telemed_2025
-Resources for the Introduction to FHIR for Telemedicine and Singal Processing
+# Introduction to FHIR for Telemedicine and Signal processing
+This repo is created to share resources and class materials for 2025 Batch of Masters in Health Informatics for the Introduction to FHIR for Telemedicine and Singal Processing
