@@ -3,5 +3,5 @@ This repo is created to share resources and class materials for 2025 Batch of Ma
 
 ## Content 
 1. [Reading list](Reading_list.md)
-2. FHIR 101 
+2. [FHIR 101](FHIR101.ipynb) 
 3. projects
