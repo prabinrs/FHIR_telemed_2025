@@ -15,8 +15,8 @@ You have to design a care at home app, for the Hypertension patients. which will
 
 
 ## Note : 
-Feel free to use any JSON editors(i prefer vsCoode).'
+Feel free to use any JSON editors(i prefer vsCoode with Kodjin FHIR Profiler).'
 You can also use FHIR profiling tools like `(forege)[https://simplifier.net/forge]` (due to time restriction we didn't include that for this class).
-I can upoad PPTs in google drive(if needed). 
+I can upoad PPTs on forge in google drive(if needed). 
 
 For posting the structureDefination and validation test also feel free to use postman or other similar tools.(i prefer python for tutorils so i used only that)
