@@ -1,0 +1,26 @@
+{
+    "resourceType": "ValueSet",
+    "id": "body-site-valueset",
+    "url": "http://example.org/fhir/ValueSet/body-site",
+    "name": "BodySiteValueSet",
+    "title": "Body Site Value Set",
+    "status": "draft",
+    "publisher": "Your Organization",
+    "compose": {
+      "include": [
+        {
+          "system": "http://snomed.info/sct",
+          "concept": [
+            { "code": "123851003", "display": "Arm" },
+            { "code": "368208006", "display": "Mouth" },
+            { "code": "74262004", "display": "Lung" },
+            { "code": "56459004", "display": "Blood vessel" },
+            { "code": "362062004", "display": "Skin" }
+          ]
+        }
+      ]
+    }
+  }
+    
+
+  

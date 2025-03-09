@@ -1,0 +1,43 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "custom-specimen",
+    "url": "http://example.org/fhir/StructureDefinition/custom-specimen",
+    "name": "CustomSpecimen",
+    "title": "Custom Specimen Definition",
+    "status": "draft",
+    "publisher": "Your Organization",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Specimen",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Specimen",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "Specimen.subject",
+          "path": "Specimen.subject",
+          "short": "Patient from whom the sample was drawn",
+          "min": 1,
+          "type": [
+            { "code": "Reference", "targetProfile": ["http://hl7.org/fhir/StructureDefinition/Patient"] }
+          ]
+        },
+        {
+          "id": "Specimen.collection.bodySite",
+          "path": "Specimen.collection.bodySite",
+          "short": "Anatomical site from which the sample was drawn",
+          "type": [
+            { "code": "CodeableConcept" }
+          ]
+        },
+        {
+          "id": "Specimen.type",
+          "path": "Specimen.type",
+          "short": "Composition of the sample (blood, tissue, saliva, etc.)",
+          "type": [
+            { "code": "CodeableConcept" }
+          ]
+        }
+      ]
+    }
+  }
