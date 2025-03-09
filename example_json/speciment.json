@@ -1,11 +1,11 @@
 {
     "resourceType": "StructureDefinition",
     "id": "custom-specimen",
-    "url": "http://example.org/fhir/StructureDefinition/custom-specimen",
+    "url": "http://class.data2health.info/StructureDefinition/custom-specimen",
     "name": "CustomSpecimen",
     "title": "Custom Specimen Definition",
     "status": "draft",
-    "publisher": "Your Organization",
+    "publisher": "Prabin",
     "kind": "resource",
     "abstract": false,
     "type": "Specimen",
@@ -19,7 +19,7 @@
           "short": "Patient from whom the sample was drawn",
           "min": 1,
           "type": [
-            { "code": "Reference", "targetProfile": ["http://hl7.org/fhir/StructureDefinition/Patient"] }
+            { "code": "Reference", "targetProfile": ["http://class.data2health.info/StructureDefinition/Patient"] }
           ]
         },
         {
